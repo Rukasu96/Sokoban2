@@ -1275,7 +1275,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7016651975078135140, guid: 125d3078976f2b346b0daa6623296ecb, type: 3}
       propertyPath: m_SortingOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7246447034814000014, guid: 125d3078976f2b346b0daa6623296ecb, type: 3}
       propertyPath: gridController
@@ -2151,7 +2151,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tresholds: 0a0000000f0000001e000000
   finishPanel: {fileID: 1937411743}
-  player: {fileID: 494175572}
+  _Player: {fileID: 494175572}
 --- !u!114 &413355882
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2630,6 +2630,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2092673984747006266, guid: 2633192c6e5415e438ad7e4c4e15699c, type: 3}
+      propertyPath: Type
+      value: 
+      objectReference: {fileID: 11400000, guid: 6ff32622f3fc0854d9c8e68fba2ec460, type: 2}
     - target: {fileID: 2092673984747006266, guid: 2633192c6e5415e438ad7e4c4e15699c, type: 3}
       propertyPath: doorController
       value: 
@@ -4131,6 +4135,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2092673984747006266, guid: 2633192c6e5415e438ad7e4c4e15699c, type: 3}
+      propertyPath: Type
+      value: 
+      objectReference: {fileID: 11400000, guid: 6ff32622f3fc0854d9c8e68fba2ec460, type: 2}
+    - target: {fileID: 2092673984747006266, guid: 2633192c6e5415e438ad7e4c4e15699c, type: 3}
       propertyPath: doorController
       value: 
       objectReference: {fileID: 413355880}
@@ -4620,11 +4628,19 @@ PrefabInstance:
       value: Door
       objectReference: {fileID: 0}
     - target: {fileID: 4890499759930830041, guid: 0e72a59011da5e04b8384219f196ba18, type: 3}
+      propertyPath: Type
+      value: 
+      objectReference: {fileID: 11400000, guid: 6ff32622f3fc0854d9c8e68fba2ec460, type: 2}
+    - target: {fileID: 4890499759930830041, guid: 0e72a59011da5e04b8384219f196ba18, type: 3}
       propertyPath: doorController
       value: 
       objectReference: {fileID: 413355880}
     - target: {fileID: 4890499759930830041, guid: 0e72a59011da5e04b8384219f196ba18, type: 3}
       propertyPath: RequiredPushedButtons
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4890499759930830041, guid: 0e72a59011da5e04b8384219f196ba18, type: 3}
+      propertyPath: requiredPushedButtons
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5730665037723169125, guid: 0e72a59011da5e04b8384219f196ba18, type: 3}
